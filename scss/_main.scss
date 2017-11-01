@@ -15,11 +15,31 @@ body {
     // $font-size-base must be a rem value
     font-size: $font-size-base;
     line-height: 1.618;
-    max-width: 38em;
-    margin: auto;
     color: $color-text;
     background-color: $color-bg;
-    padding: 13px;
+    padding: 0;
+}
+
+main {
+    max-width: 38em;
+    margin: auto;
+}
+
+section nav {
+    background: $color-blossom;
+    padding: 1em;
+
+    a {
+        color: $color-clear;
+        font-family: $font-family-sans-serif;
+        margin-inline-end: 0.5em;
+        -webkit-margin-end: 0.5em;
+
+        &:hover {
+            border-bottom: 2px solid $color-clear;
+            color: $color-clear;
+        }
+    }
 }
 
 @media (max-width: 684px) {
@@ -196,6 +216,6 @@ input[type="checkbox"]:focus {
 label, legend, fieldset {
     display: block;
     margin-bottom: .5rem;
-    font-weight: 600; 
+    font-weight: 600;
 }
 

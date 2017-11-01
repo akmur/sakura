@@ -17,6 +17,11 @@ body {
   background-color: #f9f9f9;
   padding: 13px; }
 
+nav {
+  background: #338618; }
+  nav a {
+    font-family: Verdana, Geneva, sans-serif; }
+
 @media (max-width: 684px) {
   body {
     font-size: 1.53rem; } }

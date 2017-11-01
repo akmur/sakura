@@ -11,11 +11,25 @@ html {
 body {
   font-size: 1.8rem;
   line-height: 1.618;
-  max-width: 38em;
-  margin: auto;
   color: #4a4a4a;
   background-color: #f9f9f9;
-  padding: 13px; }
+  padding: 0; }
+
+main {
+  max-width: 38em;
+  margin: auto; }
+
+section nav {
+  background: #2c8898;
+  padding: 1em; }
+  section nav a {
+    color: #ffffff;
+    font-family: Verdana, Geneva, sans-serif;
+    margin-inline-end: 0.5em;
+    -webkit-margin-end: 0.5em; }
+    section nav a:hover {
+      border-bottom: 2px solid #ffffff;
+      color: #ffffff; }
 
 @media (max-width: 684px) {
   body {
