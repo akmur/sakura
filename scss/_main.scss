@@ -6,6 +6,11 @@
 
 /* Body */
 
+* { -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box; 
+}
+
 html {
     font-size: 62.5%; // So that root size becomes 10px
     font-family: $font-family-serif;
